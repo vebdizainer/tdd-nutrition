@@ -1,2 +1,5 @@
 src
 jest.config.js
+.idea
+coverage
+node_modules
