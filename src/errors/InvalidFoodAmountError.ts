@@ -1,5 +1,5 @@
-export default class EmptyFoodNameError extends Error {
-  constructor(message = "Empty foodname is not allowed!") {
-    super(message);
+export default class InvalidFoodAmountError extends Error {
+  constructor(amount: number) {
+    super(`Invalid amount ${amount}. Must be a positive number`);
   }
 }
